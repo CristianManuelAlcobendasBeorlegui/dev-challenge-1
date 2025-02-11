@@ -1,0 +1,144 @@
+{
+  "1": {
+    "id": "1",
+    "name": "Login and register application",
+    "description": "A login application where user can log in and see an indefinite space for the moment where some of his/her data will be shown: name, email, etc. Registration of new users is allowed. OAuth mechanism against at least 2 third-party authentication servers (Google and Github).",
+    "picture": "/img/login-register-image-2.png",
+    "link": "https://login-calcoben.duckdns.org/login",
+    "tags": [
+      "Something",
+      "Something",
+      "Something"
+    ],
+    "technologies": [
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "PHP",
+      "Laravel"
+    ],
+    "authors": [
+      {
+        "name": "Someone",
+        "picture": "http://127.0.0.1:3000/DevChallenge1/Dise%C3%B1os/project-viewer/img/DP-53%20Savior%20of%20free.png",
+        "link": "http://localhost:3000"
+      },
+      {
+        "name": "Someone",
+        "picture": "http://127.0.0.1:3000/DevChallenge1/Dise%C3%B1os/project-viewer/img/DP-53%20Savior%20of%20free.png",
+        "link": "http://localhost:3000"
+      },
+      {
+        "name": "Someone",
+        "picture": "http://127.0.0.1:3000/DevChallenge1/Dise%C3%B1os/project-viewer/img/DP-53%20Savior%20of%20free.png",
+        "link": "http://localhost:3000"
+      }
+    ]
+  },
+  "2": {
+    "id": "2",
+    "name": "Shopping list",
+    "description": "A shopping list application where users can manage categories and products. A list is personal but has the possibility of being shared or accessible in an editable way by other people.",
+    "picture": "/img/shopping-list-image-2.png",
+    "link": "https://list-calcoben.duckdns.org/shoppingLists",
+    "tags": [
+      "Something",
+      "Something",
+      "Something"
+    ],
+    "technologies": [
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "PHP",
+      "Laravel"
+    ],
+    "authors": [
+      {
+        "name": "Someone",
+        "picture": "http://127.0.0.1:3000/DevChallenge1/Dise%C3%B1os/project-viewer/img/DP-53%20Savior%20of%20free.png",
+        "link": "http://localhost:3000"
+      },
+      {
+        "name": "Someone",
+        "picture": "http://127.0.0.1:3000/DevChallenge1/Dise%C3%B1os/project-viewer/img/DP-53%20Savior%20of%20free.png",
+        "link": "http://localhost:3000"
+      },
+      {
+        "name": "Someone",
+        "picture": "http://127.0.0.1:3000/DevChallenge1/Dise%C3%B1os/project-viewer/img/DP-53%20Savior%20of%20free.png",
+        "link": "http://localhost:3000"
+      }
+    ]
+  },
+  "3": {
+    "id": "3",
+    "name": "Digital Space Appointments",
+    "description": "Application to offer a good service to the digital space, a place where problems related to the Department of Education's portals, passwords, etc. are solved.",
+    "picture": "/img/appointments-2.png",
+    "link": "https://appointments-calcoben.duckdns.org",
+    "tags": [
+      "Something",
+      "Something",
+      "Something"
+    ],
+    "technologies": [
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "PHP",
+      "Laravel"
+    ],
+    "authors": [
+      {
+        "name": "Someone",
+        "picture": "http://127.0.0.1:3000/DevChallenge1/Dise%C3%B1os/project-viewer/img/DP-53%20Savior%20of%20free.png",
+        "link": "http://localhost:3000"
+      },
+      {
+        "name": "Someone",
+        "picture": "http://127.0.0.1:3000/DevChallenge1/Dise%C3%B1os/project-viewer/img/DP-53%20Savior%20of%20free.png",
+        "link": "http://localhost:3000"
+      },
+      {
+        "name": "Someone",
+        "picture": "http://127.0.0.1:3000/DevChallenge1/Dise%C3%B1os/project-viewer/img/DP-53%20Savior%20of%20free.png",
+        "link": "http://localhost:3000"
+      }
+    ]
+  },
+  "4": {
+    "id": "4",
+    "name": "Highest card game",
+    "description": "A game were each player will be dealt 5 cards from the French deck (the poker deck), top to bottom. The highest card wins. The Ace counts as the highest card, not as a 1. This is a game for two players.",
+    "picture": "/img/high-card-game-image-2.png",
+    "link": "https://game-calcoben.duckdns.org",
+    "tags": [
+      "Something",
+      "Something",
+      "Something"
+    ],
+    "technologies": [
+      "HTML5",
+      "CSS3",
+      "JavaScript"
+    ],
+    "authors": [
+      {
+        "name": "Someone",
+        "picture": "http://127.0.0.1:3000/DevChallenge1/Dise%C3%B1os/project-viewer/img/DP-53%20Savior%20of%20free.png",
+        "link": "http://localhost:3000"
+      },
+      {
+        "name": "Someone",
+        "picture": "http://127.0.0.1:3000/DevChallenge1/Dise%C3%B1os/project-viewer/img/DP-53%20Savior%20of%20free.png",
+        "link": "http://localhost:3000"
+      },
+      {
+        "name": "Someone",
+        "picture": "http://127.0.0.1:3000/DevChallenge1/Dise%C3%B1os/project-viewer/img/DP-53%20Savior%20of%20free.png",
+        "link": "http://localhost:3000"
+      }
+    ]
+  }
+}

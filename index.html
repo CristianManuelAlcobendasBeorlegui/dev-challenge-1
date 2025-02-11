@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Portfolio website</title>
+  <meta name="description" content="Cristian Alcobendas's portfolio website">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="./lib/tabler-icons-3.17.0/webfont/tabler-icons.css">
+</head>
+
+<body>
+  <header class="header">
+    <a href="#home" class="logo">Cristian <span>Alcobendas</span></a>
+
+    <i id="menu-icon" class="ti ti-menu-2"></i>
+
+    <nav class="navbar">
+      <a href="#home" class="active">Home</a>
+      <a href="#education">Education</a>
+      <a href="#services">Services</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="home" id="home">
+    <div class="home__content">
+      <h1 class="home__heading">Hi, <span>Cristian</span> here</h1>
+      <h2 class="home__subheading typewriter">I'm a&nbsp;<span class="typewriter__text"></span></h2>
+      <p>
+        I am a person with a profile both in systems and web application development who likes to learn and improve.
+      </p>
+
+      <div class="social-links">
+        <!-- <a href="#" aria-label="Linked-In"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+            stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-brand-linkedin">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z" />
+            <path d="M8 11l0 5" />
+            <path d="M8 8l0 .01" />
+            <path d="M12 16l0 -5" />
+            <path d="M16 16v-3a2 2 0 0 0 -4 0" />
+          </svg></a> -->
+        <a href="https://github.com/CristianManuelAlcobendasBeorlegui" target="_blank" aria-label="GitHub"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+            stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-brand-github">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <path
+              d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+          </svg></a>
+      </div>
+    </div>
+
+    <div style="display: flex; flex-direction: column; gap: 1rem;">
+      <picture class="home__picture">
+        <img class="home__img" src="./img/picture.png" alt="Picture">
+      </picture>
+      <div class="btn-group" style="justify-content: center;">
+        <!-- <a href="#" class="btn">Hire</a> -->
+        <a href="#contact" class="btn btn--secondary">Contact</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="eduaction" id="education">
+    <h2 class="section__heading section__heading--education">Education</h2>
+
+    <div class="timeline__items">
+      <div class="timeline__item">
+        <div class="timeline__dot"></div>
+        <div class="timeline__date">2018</div>
+        <div class="timeline__content">
+          <h3 class="timeline__topic">Networked microcomputer systems</h3>
+          <p>
+            Introductory studies to the computer world where basic aspects about the components of a computer,
+            installation and configuration of operating systems, the network and its typologies and basic concepts about
+            security are discussed.
+          </p>
+        </div>
+      </div>
+
+      <div class="timeline__item">
+        <div class="timeline__dot"></div>
+        <div class="timeline__date">2020</div>
+        <div class="timeline__content">
+          <h3 class="timeline__topic">IT systems and network administration - Cybersecurity professional profile</h3>
+          <p>
+            Training course that teaches how to manage systems, networks and databases, test the performance of devices,
+            deal with system broadcasts, maintain network resources, concepts of cybersecurity and ethical hacking.
+          </p>
+        </div>
+      </div>
+
+      <div class="timeline__item">
+        <div class="timeline__dot"></div>
+        <div class="timeline__date">2022</div>
+        <div class="timeline__content">
+          <h3 class="timeline__topic">Hired by T-Systems as Junior Programmer</h3>
+          <p>
+            Programming in Java.
+          </p>
+        </div>
+      </div>
+
+      <div class="timeline__item">
+        <div class="timeline__dot"></div>
+        <div class="timeline__date">2022</div>
+        <div class="timeline__content">
+          <h3 class="timeline__topic">Web application development</h3>
+          <p>
+            Studies to be able to develop, implement and develop web applications, using specific technologies, ensuring
+            secure data access, meeting the requirements of accessibility, usability and quality.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="services" id="services">
+    <h2 class="section__heading section__heading--services">Services</h2>
+
+    <div class="service__items">
+      <div class="service__item">
+        <div class="service__icon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+            class="icon icon-tabler icons-tabler-outline icon-tabler-device-desktop">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <path d="M3 5a1 1 0 0 1 1 -1h16a1 1 0 0 1 1 1v10a1 1 0 0 1 -1 1h-16a1 1 0 0 1 -1 -1v-10z" />
+            <path d="M7 20h10" />
+            <path d="M9 16v4" />
+            <path d="M15 16v4" />
+          </svg>
+        </div>
+
+        <h3 class="service__topic">Web Development</h3>
+        <p class="service__description">
+        </p>
+      </div>
+
+      <div class="service__item">
+        <div class="service__icon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+            class="icon icon-tabler icons-tabler-outline icon-tabler-server-cog">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <path d="M3 4m0 3a3 3 0 0 1 3 -3h12a3 3 0 0 1 3 3v2a3 3 0 0 1 -3 3h-12a3 3 0 0 1 -3 -3z" />
+            <path d="M12 20h-6a3 3 0 0 1 -3 -3v-2a3 3 0 0 1 3 -3h10.5" />
+            <path d="M18 18m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+            <path d="M18 14.5v1.5" />
+            <path d="M18 20v1.5" />
+            <path d="M21.032 16.25l-1.299 .75" />
+            <path d="M16.27 19l-1.3 .75" />
+            <path d="M14.97 16.25l1.3 .75" />
+            <path d="M19.733 19l1.3 .75" />
+            <path d="M7 8v.01" />
+            <path d="M7 16v.01" />
+          </svg>
+        </div>
+        <h3 class="service__topic">System Administration</h3>
+        <p class="service__description">
+        </p>
+      </div>
+
+      <div class="service__item">
+        <div class="service__icon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+            class="icon icon-tabler icons-tabler-outline icon-tabler-cloud-lock">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <path
+              d="M19 18a3.5 3.5 0 0 0 0 -7h-1c.397 -1.768 -.285 -3.593 -1.788 -4.787c-1.503 -1.193 -3.6 -1.575 -5.5 -1s-3.315 2.019 -3.712 3.787c-2.199 -.088 -4.155 1.326 -4.666 3.373c-.512 2.047 .564 4.154 2.566 5.027" />
+            <path d="M8 15m0 1a1 1 0 0 1 1 -1h6a1 1 0 0 1 1 1v3a1 1 0 0 1 -1 1h-6a1 1 0 0 1 -1 -1z" />
+            <path d="M10 15v-2a2 2 0 1 1 4 0v2" />
+          </svg>
+        </div>
+
+        <h3 class="service__topic">Cybersecurity Knowledgement</h3>
+        <p class="service__description">
+        </p>
+      </div>
+
+      <div class="service__item">
+        <div class="service__icon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+            class="icon icon-tabler icons-tabler-outline icon-tabler-info-hexagon">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <path
+              d="M19.875 6.27c.7 .398 1.13 1.143 1.125 1.948v7.284c0 .809 -.443 1.555 -1.158 1.948l-6.75 4.27a2.269 2.269 0 0 1 -2.184 0l-6.75 -4.27a2.225 2.225 0 0 1 -1.158 -1.948v-7.285c0 -.809 .443 -1.554 1.158 -1.947l6.75 -3.98a2.33 2.33 0 0 1 2.25 0l6.75 3.98h-.033z" />
+            <path d="M12 9h.01" />
+            <path d="M11 12h1v4h1" />
+          </svg>
+        </div>
+
+        <h3 class="service__topic">Consulting</h3>
+        <p class="service__description">
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="projects" id="projects">
+    <h2 class="section__heading section__heading--projects">Projects</h2>
+
+    <div class="project__items">
+      <div class="project__item">
+        <picture class="project__picutre">
+          <img class="project__image" src="./img/login-register-image.png" alt="" loading="lazy">
+        </picture>
+        <div class="project__meta">
+          <h3 class="project__title">Login and Register</h3>
+          <p class="project__description">
+            A login application where user can log in and see an indefinite space for the moment where some of his/her
+            data will be shown: name, email, etc. Registration of new users is allowed.
+            OAuth mechanism against at least 2 third-party authentication servers (Google and Github).
+          </p>
+
+          <a href="https://login-calcoben.duckdns.org/login" class="btn btn--secondary btn--more-details">See more</a>
+        </div>
+      </div>
+
+      <div class="project__item">
+        <picture class="project__picture">
+          <img class="project__image" src="./img/shopping-list-image.png" alt="" loading="lazy">
+        </picture>
+        <div class="project__meta">
+          <h3 class="project__title">Shopping list</h3>
+          <p class="project__description">
+            A shopping list application where users can manage categories and products.
+            A list is personal but has the possibility of being shared or accessible in an editable
+            way by other people.
+          </p>
+
+          <a href="https://list-calcoben.duckdns.org/shoppingLists" class="btn btn--secondary btn--more-details">More details</a>
+        </div>
+      </div>
+
+      <div class="project__item">
+        <picture class="project__picture">
+          <img class="project__image" src="./img/high-card-game-image.png" alt="" loading="lazy">
+        </picture>
+        <div class="project__meta">
+          <h3 class="project__title">Highest card game</h3>
+          <p class="project__description">
+            A game were each player will be dealt 5 cards from the French deck (the poker deck), top to bottom.
+            The highest card wins. The Ace counts as the highest card, not as a 1.
+            This is a game for two players.
+          </p>
+
+          <a href="https://game-calcoben.duckdns.org" class="btn btn--secondary btn--more-details">Take a look</a>
+        </div>
+      </div>
+
+      <a href="projects.html" class="btn btn--cta">Checkout all projects</a>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <h2 class="section__heading section__heading--contact">Contact me</h2>
+
+    <form class="contact__form" action="#">
+      <div class="input-group">
+        <div class="input-box">
+          <input type="text" placeholder="Full name" name="fname" id="fname">
+          <input type="email" placeholder="Email" name="email" id="email">
+        </div>
+        <div class="input-box">
+          <input type="text" placeholder="Phone number" id="phone-number">
+        </div>
+      </div>
+
+      <div class="input-group--2">
+        <input type="text" placeholder="Subject" name="subject" id="subject">
+        <textarea name="message" id="message" cols="30" rows="6" placeholder="Your message"></textarea>
+        <input type="submit" class="btn btn--send-form" value="Send message">
+      </div>
+    </form>
+  </section>
+
+  <footer class="footer">
+    <div class="social-links social-links--footer">
+      <!-- <a href="#" aria-label="Linked-In"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+          viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+          stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-brand-linkedin">
+          <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+          <path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z" />
+          <path d="M8 11l0 5" />
+          <path d="M8 8l0 .01" />
+          <path d="M12 16l0 -5" />
+          <path d="M16 16v-3a2 2 0 0 0 -4 0" />
+        </svg></a> -->
+      <a href="https://github.com/CristianManuelAlcobendasBeorlegui" target="_blank" aria-label="GitHub"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+          fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+          class="icon icon-tabler icons-tabler-outline icon-tabler-brand-github">
+          <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+          <path
+            d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+        </svg></a>
+    </div>
+
+    <ul class="list">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#education">Eduaction</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+
+  </footer>
+
+  <script src="js/typewriter.js"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>

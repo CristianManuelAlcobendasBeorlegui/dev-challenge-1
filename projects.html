@@ -1,0 +1,732 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Project explorer</title>
+  <meta name="description" content="Someone porfolio project explorer">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="css/projects.css">
+  <link rel="stylesheet" href="lib/tabler-icons-3.17.0/webfont/tabler-icons.css">
+</head>
+
+<body>
+  <header class="header">
+    <a href="index.html" class="logo">Someone <span>Somebody</span></a>
+
+    <i id="menu-icon" class="ti ti-menu-2"></i>
+
+    <nav class="navbar">
+      <a href="index.html">Home</a>
+      <a href="#projects">Projects</a>
+    </nav>
+  </header>
+
+  <section id="projects" class="projects">
+    <h1 class="section__heading">Projects</h1>
+
+    <div class="project-explorer">
+      <div class="project-explorer__filters">
+        <div class="filter__content">
+          <div class="filter__header">
+            <h2 class="filter__heading">Filters</h2>
+            <div class="filter__options">
+              <i id="clean-filters-icon" class="filter__option ti ti-filter-cancel" title="Clean filters"></i>
+            </div>
+          </div>
+          <div class="filter__items">
+            <div class="filter__item">
+              <h3 class="filter__topic">Project name</h3>
+              <input type="text" id="project-name" aria-label="Project name">
+            </div>
+
+            <!-- <div class="filter__item">
+              <h3 class="filter__topic">Tags</h3>
+
+              <div class="project__tags">
+                <div class="input-box">
+                  <input type="checkbox" id="tag1">
+                  <label for="tag1" class="project__tag">#Something</label>
+                </div>
+
+                <div class="input-box">
+                  <input type="checkbox" id="tag2">
+                  <label for="tag2" class="project__tag">#Something</label>
+                </div>
+
+                <div class="input-box">
+                  <input type="checkbox" id="tag3">
+                  <label for="tag3" class="project__tag">#Something</label>
+                </div>
+
+                <div class="input-box">
+                  <input type="checkbox" id="tag4">
+                  <label for="tag4" class="project__tag">#Something</label>
+                </div>
+              </div>
+            </div> -->
+
+            <div class="filter__item">
+              <h3 class="filter__topic">Technologies</h3>
+
+              <div class="project__technologies">
+                <div class="input-box">
+                  <input type="checkbox" id="tech1" value="HTML5">
+                  <label for="tech1" class="project__technology" title="HTML5" aria-label="HTML5"><i
+                      class="ti ti-brand-html5"></i></label>
+                </div>
+
+                <div class="input-box">
+                  <input type="checkbox" id="tech2" value="CSS3">
+                  <label for="tech2" class="project__technology" title="CSS3" aria-label="CSS3"><i
+                      class="ti ti-brand-css3"></i></label>
+                </div>
+
+                <div class="input-box">
+                  <input type="checkbox" id="tech3" value="JavaScript">
+                  <label for="tech3" class="project__technology" title="JavaScript" aria-label="JavaScript"><i
+                      class="ti ti-brand-javascript"></i></label>
+                </div>
+
+                <div class="input-box">
+                  <input type="checkbox" id="tech4" value="PHP">
+                  <label for="tech4" class="project__technology" title="PHP" aria-label="PHP"><i
+                      class="ti ti-brand-php"></i></label>
+                </div>
+
+                <div class="input-box">
+                  <input type="checkbox" id="tech5" value="Laravel">
+                  <label for="tech5" class="project__technology" title="Laravel" aria-label="Laravel"><i
+                      class="ti ti-brand-laravel"></i></label>
+                </div>
+              </div>
+            </div>
+
+            <!-- <div class="filter__item">
+              <h3 class="filter__topic">Technologies</h3>
+
+              <div class="project__technologies">
+                <div class="input-box">
+                  <input type="checkbox" id="tech1">
+                  <label for="tech1" class="project__technology" title="HTML5" aria-label="HTML5"><i class="ti ti-brand-html5"></i></label>
+                </div>
+
+                <div class="input-box">
+                  <input type="checkbox" id="tech2">
+                  <label for="tech2" class="project__technology" title="CSS3" aria-label="CSS3"><i class="ti ti-brand-css3"></i></label>
+                </div>
+
+                <div class="input-box">
+                  <input type="checkbox" id="tech3">
+                  <label for="tech3" class="project__technology" title="JavaScript" aria-label="JavaScript"><i class="ti ti-brand-javascript"></i></label>
+                </div>
+
+                <div class="input-box">
+                  <input type="checkbox" id="tech4">
+                  <label for="tech4" class="project__technology" title="PHP" aria-label="PHP"><i class="ti ti-brand-php"></i></label>
+                </div>
+
+                <div class="input-box">
+                  <input type="checkbox" id="tech5">
+                  <label for="tech5" class="project__technology" title="Laravel" aria-label="Laravel"><i class="ti ti-brand-laravel"></i></label>
+                </div>
+              </div>
+            </div>
+
+            <div class="filter__item">
+              <h3 class="filter__topic">Technologies</h3>
+
+              <div class="project__technologies">
+                <div class="input-box">
+                  <input type="checkbox" id="tech1">
+                  <label for="tech1" class="project__technology" title="HTML5" aria-label="HTML5"><i class="ti ti-brand-html5"></i></label>
+                </div>
+
+                <div class="input-box">
+                  <input type="checkbox" id="tech2">
+                  <label for="tech2" class="project__technology" title="CSS3" aria-label="CSS3"><i class="ti ti-brand-css3"></i></label>
+                </div>
+
+                <div class="input-box">
+                  <input type="checkbox" id="tech3">
+                  <label for="tech3" class="project__technology" title="JavaScript" aria-label="JavaScript"><i class="ti ti-brand-javascript"></i></label>
+                </div>
+
+                <div class="input-box">
+                  <input type="checkbox" id="tech4">
+                  <label for="tech4" class="project__technology" title="PHP" aria-label="PHP"><i class="ti ti-brand-php"></i></label>
+                </div>
+
+                <div class="input-box">
+                  <input type="checkbox" id="tech5">
+                  <label for="tech5" class="project__technology" title="Laravel" aria-label="Laravel"><i class="ti ti-brand-laravel"></i></label>
+                </div>
+              </div>
+            </div>
+
+            <div class="filter__item">
+              <h3 class="filter__topic">Technologies</h3>
+
+              <div class="project__technologies">
+                <div class="input-box">
+                  <input type="checkbox" id="tech1">
+                  <label for="tech1" class="project__technology" title="HTML5" aria-label="HTML5"><i class="ti ti-brand-html5"></i></label>
+                </div>
+
+                <div class="input-box">
+                  <input type="checkbox" id="tech2">
+                  <label for="tech2" class="project__technology" title="CSS3" aria-label="CSS3"><i class="ti ti-brand-css3"></i></label>
+                </div>
+
+                <div class="input-box">
+                  <input type="checkbox" id="tech3">
+                  <label for="tech3" class="project__technology" title="JavaScript" aria-label="JavaScript"><i class="ti ti-brand-javascript"></i></label>
+                </div>
+
+                <div class="input-box">
+                  <input type="checkbox" id="tech4">
+                  <label for="tech4" class="project__technology" title="PHP" aria-label="PHP"><i class="ti ti-brand-php"></i></label>
+                </div>
+
+                <div class="input-box">
+                  <input type="checkbox" id="tech5">
+                  <label for="tech5" class="project__technology" title="Laravel" aria-label="Laravel"><i class="ti ti-brand-laravel"></i></label>
+                </div>
+              </div>
+            </div>
+
+            <div class="filter__item">
+              <h3 class="filter__topic">Technologies</h3>
+
+              <div class="project__technologies">
+                <div class="input-box">
+                  <input type="checkbox" id="tech1">
+                  <label for="tech1" class="project__technology" title="HTML5" aria-label="HTML5"><i class="ti ti-brand-html5"></i></label>
+                </div>
+
+                <div class="input-box">
+                  <input type="checkbox" id="tech2">
+                  <label for="tech2" class="project__technology" title="CSS3" aria-label="CSS3"><i class="ti ti-brand-css3"></i></label>
+                </div>
+
+                <div class="input-box">
+                  <input type="checkbox" id="tech3">
+                  <label for="tech3" class="project__technology" title="JavaScript" aria-label="JavaScript"><i class="ti ti-brand-javascript"></i></label>
+                </div>
+
+                <div class="input-box">
+                  <input type="checkbox" id="tech4">
+                  <label for="tech4" class="project__technology" title="PHP" aria-label="PHP"><i class="ti ti-brand-php"></i></label>
+                </div>
+
+                <div class="input-box">
+                  <input type="checkbox" id="tech5">
+                  <label for="tech5" class="project__technology" title="Laravel" aria-label="Laravel"><i class="ti ti-brand-laravel"></i></label>
+                </div>
+              </div>
+            </div>
+
+            <div class="filter__item">
+              <h3 class="filter__topic">Technologies</h3>
+
+              <div class="project__technologies">
+                <div class="input-box">
+                  <input type="checkbox" id="tech1">
+                  <label for="tech1" class="project__technology" title="HTML5" aria-label="HTML5"><i class="ti ti-brand-html5"></i></label>
+                </div>
+
+                <div class="input-box">
+                  <input type="checkbox" id="tech2">
+                  <label for="tech2" class="project__technology" title="CSS3" aria-label="CSS3"><i class="ti ti-brand-css3"></i></label>
+                </div>
+
+                <div class="input-box">
+                  <input type="checkbox" id="tech3">
+                  <label for="tech3" class="project__technology" title="JavaScript" aria-label="JavaScript"><i class="ti ti-brand-javascript"></i></label>
+                </div>
+
+                <div class="input-box">
+                  <input type="checkbox" id="tech4">
+                  <label for="tech4" class="project__technology" title="PHP" aria-label="PHP"><i class="ti ti-brand-php"></i></label>
+                </div>
+
+                <div class="input-box">
+                  <input type="checkbox" id="tech5">
+                  <label for="tech5" class="project__technology" title="Laravel" aria-label="Laravel"><i class="ti ti-brand-laravel"></i></label>
+                </div>
+              </div>
+            </div>
+
+            <div class="filter__item">
+              <h3 class="filter__topic">Technologies</h3>
+
+              <div class="project__technologies">
+                <div class="input-box">
+                  <input type="checkbox" id="tech1">
+                  <label for="tech1" class="project__technology" title="HTML5" aria-label="HTML5"><i class="ti ti-brand-html5"></i></label>
+                </div>
+
+                <div class="input-box">
+                  <input type="checkbox" id="tech2">
+                  <label for="tech2" class="project__technology" title="CSS3" aria-label="CSS3"><i class="ti ti-brand-css3"></i></label>
+                </div>
+
+                <div class="input-box">
+                  <input type="checkbox" id="tech3">
+                  <label for="tech3" class="project__technology" title="JavaScript" aria-label="JavaScript"><i class="ti ti-brand-javascript"></i></label>
+                </div>
+
+                <div class="input-box">
+                  <input type="checkbox" id="tech4">
+                  <label for="tech4" class="project__technology" title="PHP" aria-label="PHP"><i class="ti ti-brand-php"></i></label>
+                </div>
+
+                <div class="input-box">
+                  <input type="checkbox" id="tech5">
+                  <label for="tech5" class="project__technology" title="Laravel" aria-label="Laravel"><i class="ti ti-brand-laravel"></i></label>
+                </div>
+              </div>
+            </div>
+
+            <div class="filter__item">
+              <h3 class="filter__topic">Technologies</h3>
+
+              <div class="project__technologies">
+                <div class="input-box">
+                  <input type="checkbox" id="tech1">
+                  <label for="tech1" class="project__technology" title="HTML5" aria-label="HTML5"><i class="ti ti-brand-html5"></i></label>
+                </div>
+
+                <div class="input-box">
+                  <input type="checkbox" id="tech2">
+                  <label for="tech2" class="project__technology" title="CSS3" aria-label="CSS3"><i class="ti ti-brand-css3"></i></label>
+                </div>
+
+                <div class="input-box">
+                  <input type="checkbox" id="tech3">
+                  <label for="tech3" class="project__technology" title="JavaScript" aria-label="JavaScript"><i class="ti ti-brand-javascript"></i></label>
+                </div>
+
+                <div class="input-box">
+                  <input type="checkbox" id="tech4">
+                  <label for="tech4" class="project__technology" title="PHP" aria-label="PHP"><i class="ti ti-brand-php"></i></label>
+                </div>
+
+                <div class="input-box">
+                  <input type="checkbox" id="tech5">
+                  <label for="tech5" class="project__technology" title="Laravel" aria-label="Laravel"><i class="ti ti-brand-laravel"></i></label>
+                </div>
+              </div>
+            </div>
+
+            <div class="filter__item">
+              <h3 class="filter__topic">Technologies</h3>
+
+              <div class="project__technologies">
+                <div class="input-box">
+                  <input type="checkbox" id="tech1">
+                  <label for="tech1" class="project__technology" title="HTML5" aria-label="HTML5"><i class="ti ti-brand-html5"></i></label>
+                </div>
+
+                <div class="input-box">
+                  <input type="checkbox" id="tech2">
+                  <label for="tech2" class="project__technology" title="CSS3" aria-label="CSS3"><i class="ti ti-brand-css3"></i></label>
+                </div>
+
+                <div class="input-box">
+                  <input type="checkbox" id="tech3">
+                  <label for="tech3" class="project__technology" title="JavaScript" aria-label="JavaScript"><i class="ti ti-brand-javascript"></i></label>
+                </div>
+
+                <div class="input-box">
+                  <input type="checkbox" id="tech4">
+                  <label for="tech4" class="project__technology" title="PHP" aria-label="PHP"><i class="ti ti-brand-php"></i></label>
+                </div>
+
+                <div class="input-box">
+                  <input type="checkbox" id="tech5">
+                  <label for="tech5" class="project__technology" title="Laravel" aria-label="Laravel"><i class="ti ti-brand-laravel"></i></label>
+                </div>
+              </div>
+            </div> -->
+
+
+          </div>
+        </div>
+      </div>
+
+      <div class="project-explorer__projects">
+        <div class="project__items">
+          <!-- <div id="a" class="project__item">
+            <div class="project__content">
+              <h3 class="project__title">Something awesome</h3>
+
+              <p class="project__description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora 
+                itaque sequi praesentium nostrum blanditiis veniam unde quidem 
+                animi quia quis recusandae voluptatum tenetur obcaecati placeat 
+                eveniet eius similique, rerum quasi.
+
+              </p>
+
+              <button class="button">See more</button>
+            </div>
+          </div>
+
+
+          <div class="project__item">
+            <div class="project__content">
+              <h3 class="project__title">Something awesome</h3>
+
+              <p class="project__description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora 
+                itaque sequi praesentium nostrum blanditiis veniam unde quidem 
+                animi quia quis recusandae voluptatum tenetur obcaecati placeat 
+                eveniet eius similique, rerum quasi.
+
+              </p>
+
+              <button class="button">See more</button>
+            </div>
+          </div>
+
+
+          <div class="project__item">
+            <div class="project__content">
+              <h3 class="project__title">Something awesome</h3>
+
+              <p class="project__description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora 
+                itaque sequi praesentium nostrum blanditiis veniam unde quidem 
+                animi quia quis recusandae voluptatum tenetur obcaecati placeat 
+                eveniet eius similique, rerum quasi.
+
+              </p>
+
+              <button class="button">See more</button>
+            </div>
+          </div>
+
+          <div class="project__item">
+            <div class="project__content">
+              <h3 class="project__title">Something awesome</h3>
+
+              <p class="project__description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora 
+                itaque sequi praesentium nostrum blanditiis veniam unde quidem 
+                animi quia quis recusandae voluptatum tenetur obcaecati placeat 
+                eveniet eius similique, rerum quasi.
+
+              </p>
+
+              <button class="button">See more</button>
+            </div>
+          </div>
+
+          <div class="project__item">
+            <div class="project__content">
+              <h3 class="project__title">Something awesome</h3>
+
+              <p class="project__description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora 
+                itaque sequi praesentium nostrum blanditiis veniam unde quidem 
+                animi quia quis recusandae voluptatum tenetur obcaecati placeat 
+                eveniet eius similique, rerum quasi.
+
+              </p>
+
+              <button class="button">See more</button>
+            </div>
+          </div>
+
+          <div class="project__item">
+            <div class="project__content">
+              <h3 class="project__title">Something awesome</h3>
+
+              <p class="project__description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora 
+                itaque sequi praesentium nostrum blanditiis veniam unde quidem 
+                animi quia quis recusandae voluptatum tenetur obcaecati placeat 
+                eveniet eius similique, rerum quasi.
+
+              </p>
+
+              <button class="button">See more</button>
+            </div>
+          </div>
+
+          <div class="project__item">
+            <div class="project__content">
+              <h3 class="project__title">Something awesome</h3>
+
+              <p class="project__description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora 
+                itaque sequi praesentium nostrum blanditiis veniam unde quidem 
+                animi quia quis recusandae voluptatum tenetur obcaecati placeat 
+                eveniet eius similique, rerum quasi.
+
+              </p>
+
+              <button class="button">See more</button>
+            </div>
+          </div>
+
+          <div class="project__item">
+            <div class="project__content">
+              <h3 class="project__title">Something awesome</h3>
+
+              <p class="project__description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora 
+                itaque sequi praesentium nostrum blanditiis veniam unde quidem 
+                animi quia quis recusandae voluptatum tenetur obcaecati placeat 
+                eveniet eius similique, rerum quasi.
+
+              </p>
+
+              <button class="button">See more</button>
+            </div>
+          </div>
+
+          <div class="project__item">
+            <div class="project__content">
+              <h3 class="project__title">Something awesome</h3>
+
+              <p class="project__description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora 
+                itaque sequi praesentium nostrum blanditiis veniam unde quidem 
+                animi quia quis recusandae voluptatum tenetur obcaecati placeat 
+                eveniet eius similique, rerum quasi.
+
+              </p>
+
+              <button class="button">See more</button>
+            </div>
+          </div>
+
+          <div class="project__item">
+            <div class="project__content">
+              <h3 class="project__title">Something awesome</h3>
+
+              <p class="project__description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora 
+                itaque sequi praesentium nostrum blanditiis veniam unde quidem 
+                animi quia quis recusandae voluptatum tenetur obcaecati placeat 
+                eveniet eius similique, rerum quasi.
+
+              </p>
+
+              <button class="button">See more</button>
+            </div>
+          </div>
+
+          <div class="project__item">
+            <div class="project__content">
+              <h3 class="project__title">Something awesome</h3>
+
+              <p class="project__description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora 
+                itaque sequi praesentium nostrum blanditiis veniam unde quidem 
+                animi quia quis recusandae voluptatum tenetur obcaecati placeat 
+                eveniet eius similique, rerum quasi.
+
+              </p>
+
+              <button class="button">See more</button>
+            </div>
+          </div> -->
+
+
+
+        </div>
+      </div>
+    </div>
+
+    <!-- <div class="project-explorer">
+      <div class="project-explorer__filters">
+        <h2 class="filter__title">Filters</h2>
+
+        <div class="filter__items">
+          <div class="filter__item">
+            <h3 class="filter__topic">Project name</h3>
+            <input type="text" aria-label="Project name" id="project__name">
+          </div>
+
+          <div class="filter__item">
+            <h3 class="filter__topic">Tags</h3>
+
+            <div class="project__tags">
+              <div class="project__tag">
+                <input type="checkbox" id="tag1">
+                <label for="tag1" class="tag__label">#Something</label>
+              </div>
+
+              <div class="project__tag">
+                <input type="checkbox" id="tag2">
+                <label for="tag2" class="tag__label">#Something</label>
+              </div>
+
+              <div class="project_tag">
+                <input type="checkbox" id="tag3">
+                <label for="tag3" class="tag__label">#Something</label>
+              </div>
+            </div>
+          </div>
+
+          <div class="filter__item">
+            <h3 class="filter__topic">Technologies</h3>
+
+            <div class="project__technologies">
+              <div class="project__technology">
+                <input type="checkbox" id="tech1">
+                <label for="tech1" aria-label="HTML5"><i class="ti ti-brand-html5"></i></label>
+              <div>
+
+              <div class="project__technology">
+                <input type="checkbox" id="tech2">
+                <label for="tech2" aria-label="CSS3"><i class="ti ti-brand-css3"></i></label>
+              </div>
+              
+              <div class="project__technology">
+                <input type="checkbox" id="tech3">
+                <label for="tech3" aria-label="JavaScript"><i class="ti ti-brand-javascript"></i></label>
+              </div>
+
+              <div class="project__technology">
+                <input type="checkbox" id="tech4">
+                <label for="tech4" aria-label="PHP"><i class="ti ti-brand-php"></i></label>
+              </div>
+
+              <div class="project__technology">
+                <input type="checkbox" id="tech5">
+                <label for="tech5" aria-label="Laravel"><i class="ti ti-brand-laravel"></i></label>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+
+      <div class="project-explorer__projects">
+        <div class="project__items">
+          <h3 class="status--error">Wops, it's seems there is no project to show. :(</h3>
+
+          <div class="project__item">
+            <div class="project__content">
+              <h3 class="project__title">Something awesome</h3>
+
+              <p class="project__description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Pariatur similique reiciendis at in saepe, atque qui 
+                deleniti. Quod, repellendus, nesciunt aspernatur et 
+                dolore est officiis fuga voluptates, asperiores tenetur 
+                earum.
+              </p>
+
+              <button class="button">See more</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> -->
+  </section>
+
+  <div class="project-viewer">
+    <i title="Close project viewer" id="close-project-viewer__icon" class="ti ti-x"></i>
+
+    <div class="project-viewer__content">
+      <div class="project__preview">
+        <iframe class="project__preview-item" src=""
+          frameborder="0"></iframe>
+      </div>
+
+      <div class="project__meta">
+        <div class="project__info">
+          <div class="project__general-data">
+            <h2 class="project__title">Project name</h2>
+            <div class="tag__items">
+              <span class="tag__item">#Something</span>
+              <span class="tag__item">#Something</span>
+              <span class="tag__item">#Something</span>
+              <span class="tag__item">#Something</span>
+              <span class="tag__item">#Something</span>
+            </div>
+          </div>
+          <div class="project__technologies">
+            <h2 class="heading">Technologies</h2>
+
+            <div class="technology__items">
+              <i title="HTML5" class="technology__item ti ti-brand-html5"></i>
+              <i title="CSS3" class="technology__item ti ti-brand-css3"></i>
+              <i title="JavaScript" class="technology__item ti ti-brand-javascript"></i>
+              <i title="PHP" class="technology__item ti ti-brand-php"></i>
+              <i title="Laravel" class="technology__item ti ti-brand-laravel"></i>
+            </div>
+          </div>
+
+          <div class="project__description">
+            <h2 class="heading">Description</h2>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. A minima iure sunt
+              ad expedita dolores sint nam. Optio quidem accusantium illo voluptatum
+              esse saepe deserunt, fuga et. Nam, placeat! Omnis?
+            </p>
+          </div>
+
+          <!-- <div class="project__authors">
+            <h2 class="heading">Authors</h2>
+
+            <div class="author__items">
+              <a href="#" class="author__item">
+                <img src="Diseños/project-viewer/img/DP-53 Savior of free.png" alt="Someone profile image"
+                  class="author__profile-image">
+                Someone
+              </a>
+              <a href="#" class="author__item">
+                <img src="Diseños/project-viewer/img/DP-53 Savior of free.png" alt="Someone profile image"
+                  class="author__profile-image">
+                Someone
+              </a>
+              <a href="#" class="author__item">
+                <img src="Diseños/project-viewer/img/DP-53 Savior of free.png" alt="Someone profile image"
+                  class="author__profile-image">
+                Someone
+              </a>
+              <a href="#" class="author__item">
+                <img src="Diseños/project-viewer/img/DP-53 Savior of free.png" alt="Someone profile image"
+                  class="author__profile-image">
+                Someone
+              </a>
+              <a href="#" class="author__item">
+                <img src="Diseños/project-viewer/img/DP-53 Savior of free.png" alt="Someone profile image"
+                  class="author__profile-image">
+                Someone
+              </a>
+            </div>
+          </div> -->
+        </div>
+        <a href="#" target="_blank" class="project-viewer__cta-btn">
+          Open project
+          <i class="ti ti-external-link"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="social__links social__links--footer">
+      <a href="#" class="social__link" aria-label="LinkedIn"><i class="ti ti-brand-linkedin"></i></a>
+      <a href="#" class="social__link" aria-label="GitHub"><i class="ti ti-brand-github"></i></a>
+    </div>
+
+    <ul class="list">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="#projects">Projects</a></li>
+    </ul>
+
+    <p class="copyright">&copy; Someone | All rights reserved</p>
+  </footer>
+  <script src="js/project-explorer.js"></script>
+</body>
+
+</html>
